@@ -1,0 +1,5 @@
+# This is the environment that scripts may source
+PROJECT_NAME=hello-world
+PROJECT_ROOT_DIR=`pwd`
+SRC_DIR=${PROJECT_ROOT_DIR}/src
+TARGET_DIR=${PROJECT_ROOT_DIR}/target
