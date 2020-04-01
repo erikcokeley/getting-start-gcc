@@ -1,3 +1,4 @@
 -pedantic
 -Wall
+-fno-allow-parameterless-variadic-functions
 

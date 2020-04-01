@@ -2,7 +2,7 @@
 
 source ./env # assumes env is adjacent to this script
 
-FLAGS=@my-special-flags
+FLAGS="@my-special-flags -aux-info ${TARGET_DIR}/${PROJECT_NAME}-aux-info.txt -std=c11"
 
 mkdir -p ${PROJECT_ROOT_DIR}/target
 echo "--------PREPROCESSOR----------"
